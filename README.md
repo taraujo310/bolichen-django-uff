@@ -15,4 +15,12 @@ Utilizando o bootstrap, crie um site contento pelo menos 4 páginas html. Para d
 - List-group
 - Buttons
 - Breadcrumb
-- Dropdown
+- Dropdown (Login)
+- Paginação
+
+## Páginas
+
+- Home
+- Sobre / Nossa História
+- Produtos
+- Contato

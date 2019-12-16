@@ -50,16 +50,18 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">Atual</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">Sobre</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="products.html">Produtos</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="products.html">
+                  Produtos
+                  <span class="sr-only">Atual</span>
+                </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contato</a>
@@ -110,16 +112,12 @@
       </div>
     </nav>
 
-    <!-- Banner -->
-    <div id="banner">
-      <img class="d-block img-fluid" src="http://placehold.it/1366x350/000000/FFFFFF/?text=banner" alt="Primeiro slide">
-    </div>
-
     <!-- Breadcrumb -->
     <nav class="breadcrumb-container" aria-label="breadcrumb">
       <div class="container">
         <ol class="breadcrumb mb-0">
-          <li class="breadcrumb-item active" aria-current="page">Home</li>
+          <li class="breadcrumb-item">Home</li>
+          <li class="breadcrumb-item active" aria-current="page">Mais Procurados</li>
         </ol>
       </div>
     </nav>
@@ -131,9 +129,11 @@
         <div class="col-lg-3">
           <h1>Bolichen</h1>
           <div class="list-group">
-            <a href="#" class="list-group-item">Categoria 1</a>
-            <a href="#" class="list-group-item">Categoria 2</a>
-            <a href="#" class="list-group-item">Categoria 3</a>
+            <a href="#" class="list-group-item">Mais Procurados</a>
+            <a href="#" class="list-group-item">Artesanato</a>
+            <a href="#" class="list-group-item">Casa Nova</a>
+            <a href="#" class="list-group-item">Natal</a>
+            <a href="#" class="list-group-item">Dia dos Namorados</a>
           </div>
         </div>
         
@@ -253,9 +253,18 @@
                 </div>
               </div>
             </div>
+        </div>
+        <!-- /.row -->
 
-          </div>
-          <!-- /.row -->
+        <nav>
+          <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Próxima</a></li>
+          </ul>
+        </nav>
 
         </div>
         <!-- /.col-lg-9 -->
