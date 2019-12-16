@@ -24,3 +24,7 @@ Utilizando o bootstrap, crie um site contento pelo menos 4 páginas html. Para d
 - Sobre / Nossa História
 - Produtos
 - Contato
+- Administração (link no footer)
+    - Lista de Produtos
+    - Novo Produto
+        - Validação de Formulário com JQuery
